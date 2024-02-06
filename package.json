@@ -1,6 +1,6 @@
 {
   "name": "lsbridge",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Using the local storage as a communication channel",
   "main": "build/lsbridge.min.js",
   "author": {
@@ -9,8 +9,7 @@
     "url": "http://krasimirtsonev.com"
   },
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {},
   "keywords": [
     "localStorage",
