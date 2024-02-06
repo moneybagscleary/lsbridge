@@ -10,7 +10,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "uglify-js": "2.4.21"
   },
   "devDependencies": {},
   "keywords": [
@@ -24,6 +23,6 @@
     "url": "https://github.com/krasimir/lsbridge.git"
   },
   "scripts": {
-    "compile": "./node_modules/uglify-js/bin/uglifyjs --compress --mangle -o ./build/lsbridge.min.js -- ./src/lsbridge.js"
+    "compile": "uglifyjs --compress --mangle -o ./build/lsbridge.min.js -- ./src/lsbridge.js"
   }
 }

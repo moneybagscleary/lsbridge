@@ -42,8 +42,8 @@ lsbridge.unsubscribe('my-namespace');
 
 ## Compilation
 
-* Run `npm install` to get UglifyJS installed.
-* Run `npm run-script compile` to produce `build/jsbridge.min.js`
+* Run `npm install -g uglify-js` to get UglifyJS installed.
+* Run `npm run compile` to produce `build/jsbridge.min.js`
 
 ## Example
 
